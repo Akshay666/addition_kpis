@@ -24,11 +24,6 @@ function getGraphs()
               $("patient_info").empty();
               document.getElementById("patient_info").innerHTML = '<h2> Patient Info</h2>'+'<p>'+'<b>'+'Gender: '+'</b>'+r.data.entry[0].resource.gender+'</p>'+'<p>'+'<b>'+'Birthday: '+'</b>'+r.data.entry[0].resource.birthDate+'</p>'+'<p>'+'<b>';
 
-              // $("patient_info").append(
-              //     '<h2> Patient Info</h2>'+
-              //     '<p>'+'<b>'+'Gender: '+'</b>'+r.data.entry[0].resource.gender+'</p>'+
-              //     '<p>'+'<b>'+'Birthday: '+'</b>'+r.data.entry[0].resource.birthDate+'</p>'
-              // )
               patient_id = r.data.entry[0].resource.id;
               $(plot1).empty()
 
