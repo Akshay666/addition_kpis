@@ -3,7 +3,7 @@ Link: https://akshay666.github.io/addition_kpis/
 A web app for a clinician that shows a trend of the following metrics over time, juxtaposed with normal range values as reference: 
 
 GCT [ 6-32 iu/L] 
-ALT [5-40 iu/L ]
+ALT [ 5-40 iu/L ]
 Bilirubin [  0-17 micromol/L ]
 MCV [ 83-96 fL ]
 
